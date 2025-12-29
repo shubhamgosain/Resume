@@ -1,0 +1,193 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Your Full Name",
+    "label": "Your Job Title / Professional Role",
+    "image": "",
+    "email": "your.email@example.com",
+    "phone": "(123) 456-7890",
+    "url": "https://your-website.com",
+    "summary": "A brief professional summary about yourself. 2-3 sentences highlighting your expertise, experience, and what you bring to the table.",
+    "location": {
+      "address": "123 Main Street",
+      "postalCode": "12345",
+      "city": "Your City",
+      "countryCode": "US",
+      "region": "Your State"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "yourlinkedin",
+        "url": "https://linkedin.com/in/yourlinkedin"
+      },
+      {
+        "network": "GitHub",
+        "username": "yourgithub",
+        "url": "https://github.com/yourgithub"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Company Name",
+      "position": "Job Title",
+      "url": "https://company-website.com",
+      "startDate": "2022-01-01",
+      "endDate": "",
+      "summary": "Brief description of your role and the company",
+      "highlights": [
+        "Achievement or responsibility #1",
+        "Achievement or responsibility #2",
+        "Achievement or responsibility #3"
+      ]
+    },
+    {
+      "name": "Previous Company",
+      "position": "Previous Job Title",
+      "url": "https://previous-company.com",
+      "startDate": "2019-06-01",
+      "endDate": "2021-12-31",
+      "summary": "Brief description of your role",
+      "highlights": [
+        "Key achievement #1",
+        "Key achievement #2"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization Name",
+      "position": "Volunteer Role",
+      "url": "https://organization.com",
+      "startDate": "2020-01-01",
+      "endDate": "2021-01-01",
+      "summary": "Description of volunteer work",
+      "highlights": [
+        "Highlight #1"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University Name",
+      "url": "https://university.edu",
+      "area": "Field of Study",
+      "studyType": "Bachelor / Master / PhD",
+      "startDate": "2015-09-01",
+      "endDate": "2019-05-31",
+      "score": "3.8 GPA",
+      "courses": [
+        "Relevant Course 1",
+        "Relevant Course 2"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award Name",
+      "date": "2023-01-01",
+      "awarder": "Awarding Organization",
+      "summary": "Brief description of the award"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certification Name",
+      "date": "2023-06-01",
+      "issuer": "Issuing Organization",
+      "url": "https://certification-url.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication Title",
+      "publisher": "Publisher Name",
+      "releaseDate": "2023-01-01",
+      "url": "https://publication-url.com",
+      "summary": "Brief description of the publication"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Category (e.g., Programming Languages)",
+      "level": "Expert",
+      "keywords": [
+        "Skill 1",
+        "Skill 2",
+        "Skill 3"
+      ]
+    },
+    {
+      "name": "Category (e.g., Frameworks)",
+      "level": "Advanced",
+      "keywords": [
+        "Framework 1",
+        "Framework 2"
+      ]
+    },
+    {
+      "name": "Category (e.g., Tools)",
+      "level": "Intermediate",
+      "keywords": [
+        "Tool 1",
+        "Tool 2"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Professional working proficiency"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Interest Category",
+      "keywords": [
+        "Hobby 1",
+        "Hobby 2"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Reference Name",
+      "reference": "Available upon request"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project Name",
+      "description": "Brief description of the project",
+      "highlights": [
+        "Key feature or achievement #1",
+        "Key feature or achievement #2"
+      ],
+      "keywords": [
+        "Technology 1",
+        "Technology 2"
+      ],
+      "startDate": "2023-01-01",
+      "endDate": "2023-06-01",
+      "url": "https://project-url.com",
+      "roles": [
+        "Lead Developer",
+        "Designer"
+      ],
+      "entity": "Company or Organization",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2024-12-29",
+    "theme": "elegant"
+  }
+}
+
