@@ -30,17 +30,30 @@
             font-size: 1.4rem;
             font-weight: 600;
         }
-        .download-btn {
-            background: #e94560;
+        .btn-group {
+            display: flex;
+            gap: 10px;
+        }
+        .download-btn, .view-btn {
             color: white;
             padding: 10px 20px;
             border-radius: 6px;
             text-decoration: none;
             font-weight: 500;
-            transition: background 0.3s;
+            transition: all 0.3s;
+        }
+        .download-btn {
+            background: #e94560;
         }
         .download-btn:hover {
             background: #ff6b6b;
+        }
+        .view-btn {
+            background: #0f3460;
+            border: 1px solid #e94560;
+        }
+        .view-btn:hover {
+            background: #1a4a7a;
         }
         .pdf-container {
             flex: 1;
@@ -70,7 +83,10 @@
 <body>
     <header>
         <h1>Shubham Gosain</h1>
-        <a href="Shubham-Gosain-Resume.pdf" download class="download-btn">⬇ Download PDF</a>
+        <div class="btn-group">
+            <a href="Shubham-Gosain-Resume.pdf" target="_blank" class="view-btn">📄 View PDF</a>
+            <a href="Shubham-Gosain-Resume.pdf" download class="download-btn">⬇ Download</a>
+        </div>
     </header>
     
     <div class="pdf-container">
