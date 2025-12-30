@@ -1,193 +1,187 @@
 {
-  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
-  "basics": {
-    "name": "Your Full Name",
-    "label": "Your Job Title / Professional Role",
-    "image": "",
-    "email": "your.email@example.com",
-    "phone": "(123) 456-7890",
-    "url": "https://your-website.com",
-    "summary": "A brief professional summary about yourself. 2-3 sentences highlighting your expertise, experience, and what you bring to the table.",
-    "location": {
-      "address": "123 Main Street",
-      "postalCode": "12345",
-      "city": "Your City",
-      "countryCode": "US",
-      "region": "Your State"
+    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "basics": {
+      "name": "Shubham Gosain",
+      "label": "Site Reliability Engineer (SRE)",
+      "image": "",
+      "email": "gosain86.shubham@gmail.com",
+      "phone": "+91 7042779092, +91 7011462200",
+      "url": "https://sgosain.com",
+      "summary": "Site Reliability Engineer (SRE) with over 7 years of experience optimizing and managing infrastructure across AWS and on-prem Linux environments. Proven expertise in designing and maintaining scalable, high-performance systems with a strong emphasis on automation and reliability. Proficient in platforms like Kubernetes and Openstack, and experienced building robust CI/CD pipelines. Extensive experienced writing automation tools, internal APIs, and infrastructure-as-code solutions that significantly reduce manual effort and streamline operations.",
+      "location": {
+        "city": "Delhi-NCR",
+        "countryCode": "IN",
+        "region": "India"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "shubham-gosain",
+          "url": "https://www.linkedin.com/in/shubham-gosain"
+        },
+        {
+          "network": "GitHub",
+          "username": "shubhamgosain",
+          "url": "https://github.com/shubhamgosain"
+        },
+        {
+          "network": "Medium",
+          "username": "shubhamgosain1",
+          "url": "https://medium.com/@shubhamgosain1"
+        }
+      ]
     },
-    "profiles": [
+    "work": [
       {
-        "network": "LinkedIn",
-        "username": "yourlinkedin",
-        "url": "https://linkedin.com/in/yourlinkedin"
+        "name": "GoDaddy",
+        "position": "Site Reliability Engineer IV",
+        "url": "https://www.godaddy.com",
+        "startDate": "2022-08-01",
+        "summary": "Ensuring 99.99% uptime for millions of payment customers. Handling a good chunk of operational automation writing scripts, salt states and ansible playbook to reduce turnaround time.",
+        "highlights": [
+          "IAC rewrite and EKS Clusters upgrade while achieving zero downtime for merchant stores and transaction dashboards.",
+          "Setup Starrocks to allow customer query billions of transactions with benchmark under 0.5s/query performance.",
+          "Drafted migration plan for Data Warehouse from EKS to EC2 ensuring 100% uptime.",
+          "Wrote pluggable TLS automations saving 30-120 minutes per cert and eliminating human error.",
+          "Analysed, tuned and migrated apps from EC2 to ECS saving ~40% of running costs.",
+          "Wrote operators and controllers for K8s clusters to achieve near zero operational overhead.",
+          "Drafted GHA and CICD pipelines across platforms for automated releases.",
+          "Maintaining 100% compliancy against security vulnerabilities."
+        ]
       },
       {
-        "network": "GitHub",
-        "username": "yourgithub",
-        "url": "https://github.com/yourgithub"
+        "name": "One.com",
+        "position": "DevOps Engineer - III / Infrastructure Lead",
+        "url": "https://one.com",
+        "startDate": "2018-10-01",
+        "endDate": "2022-08-01",
+        "summary": "Infrastructure lead for India Office. Designed and developed technical solutions across different teams and products.",
+        "highlights": [
+          "Managed application CI/CD, infra, deployments, analytics, and monitoring as Infrastructure lead.",
+          "Performed operational activities as System Administrator for one year, monitoring the entire org infra.",
+          "Ensured up-to-date documentation and SOPs.",
+          "Led a team of developers and contributed to training for interns and new joiners."
+        ]
       }
-    ]
-  },
-  "work": [
-    {
-      "name": "Company Name",
-      "position": "Job Title",
-      "url": "https://company-website.com",
-      "startDate": "2022-01-01",
-      "endDate": "",
-      "summary": "Brief description of your role and the company",
-      "highlights": [
-        "Achievement or responsibility #1",
-        "Achievement or responsibility #2",
-        "Achievement or responsibility #3"
-      ]
-    },
-    {
-      "name": "Previous Company",
-      "position": "Previous Job Title",
-      "url": "https://previous-company.com",
-      "startDate": "2019-06-01",
-      "endDate": "2021-12-31",
-      "summary": "Brief description of your role",
-      "highlights": [
-        "Key achievement #1",
-        "Key achievement #2"
-      ]
+    ],
+    "education": [
+      {
+        "institution": "GGSIPU",
+        "area": "Computer Science Engineering",
+        "studyType": "B Tech",
+        "startDate": "2014-01-01",
+        "endDate": "2018-12-31",
+        "score": "79%"
+      },
+      {
+        "institution": "Kendriya Vidyalaya",
+        "area": "Science with computers",
+        "studyType": "XII",
+        "startDate": "2012-01-01",
+        "endDate": "2014-12-31",
+        "score": "89.6%"
+      }
+    ],
+    "awards": [
+      {
+        "title": "Early Promotion to SRE-IV",
+        "date": "2024-01-01",
+        "awarder": "GoDaddy",
+        "summary": "For projects and key contributions to the org and team."
+      },
+      {
+        "title": "Team Appreciations",
+        "date": "2024-01-01",
+        "awarder": "GoDaddy",
+        "summary": "Regular appreciations for cross-collaborations and service additions (2022-2025)."
+      },
+      {
+        "title": "Successful Product Launch",
+        "date": "2022-01-01",
+        "awarder": "One.com",
+        "summary": "For building backend app and preparing the infrastructure of the MWP product."
+      },
+      {
+        "title": "Successful Project Transition",
+        "date": "2021-01-01",
+        "awarder": "One.com",
+        "summary": "For successful delivery of feature after project's transition to the team."
+      },
+      {
+        "title": "Professional Go & Python Developer",
+        "date": "2020-01-01",
+        "awarder": "One.com",
+        "summary": "Overtaking team's active python development and redevelopment of a critical application."
+      }
+    ],
+    "certificates": [
+      {
+        "name": "CKA - Certified Kubernetes Administrator",
+        "date": "2023-01-01",
+        "issuer": "CNCF",
+        "url": "https://www.cncf.io/certification/cka/"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Infrastructure",
+        "keywords": ["AWS", "Linux", "Kubernetes", "Openshift", "Openstack"]
+      },
+      {
+        "name": "Setup Tools",
+        "keywords": ["CDK", "Salt", "Sceptre", "Ansible", "Chef"]
+      },
+      {
+        "name": "DevOps",
+        "keywords": ["GHA", "Jenkins", "ArgoCD"]
+      },
+      {
+        "name": "Databases & Monitoring",
+        "keywords": ["Cloudwatch", "Grafana", "Prometheus", "RDS for mysql", "Elasticsearch APM"]
+      },
+      {
+        "name": "Languages",
+        "keywords": ["Golang", "Python", "Bash", "Typescript", "NodeJS"]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Kubernetes Operator for Cert Rotation",
+        "description": "Automate cert rotation for openshift routes.",
+        "highlights": ["Stack: Go, Mysql, k8s, docker, prometheus, GHA"]
+      },
+      {
+        "name": "AWS Cert Automation",
+        "description": "Wrote cert automation for certs in AWS cert manager.",
+        "highlights": ["Stack: Python, CDK, Github Workflows"]
+      },
+      {
+        "name": "Kafka-Zookeeper Clusters",
+        "description": "Scale-up and maintain Kafka-zookeeper clusters.",
+        "highlights": ["Stack: Sceptre, salt, filebeat"]
+      },
+      {
+        "name": "WORDPRESS-API",
+        "description": "Redeveloped Backend API for WordPress product; served 2-3M requests/day.",
+        "highlights": ["Stack: Golang, Docker, Kubernetes, Prometheus, Chef"]
+      },
+      {
+        "name": "WEB-SCANNER",
+        "description": "Scan and scrape information from websites; scanned ~1.5M/month.",
+        "highlights": ["Stack: Python, CockroachDB, Docker, Kubernetes, Analytics, Prometheus, Chef"]
+      },
+      {
+        "name": "UPTIME MONITOR",
+        "description": "Application to perform uptime checks with customer notifications and metrics.",
+        "highlights": ["Stack: Golang, CockroachDB, Docker, Kubernetes, Prometheus"]
+      },
+      {
+        "name": "JABBER BOT",
+        "description": "Issue tracker and utility tool for customer support escalation tickets.",
+        "highlights": ["Stack: Python, Postgres, Chef, Gitlab CI/CD"]
+      }
+    ],
+    "meta": {
+      "theme": "straightforward"
     }
-  ],
-  "volunteer": [
-    {
-      "organization": "Organization Name",
-      "position": "Volunteer Role",
-      "url": "https://organization.com",
-      "startDate": "2020-01-01",
-      "endDate": "2021-01-01",
-      "summary": "Description of volunteer work",
-      "highlights": [
-        "Highlight #1"
-      ]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University Name",
-      "url": "https://university.edu",
-      "area": "Field of Study",
-      "studyType": "Bachelor / Master / PhD",
-      "startDate": "2015-09-01",
-      "endDate": "2019-05-31",
-      "score": "3.8 GPA",
-      "courses": [
-        "Relevant Course 1",
-        "Relevant Course 2"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Award Name",
-      "date": "2023-01-01",
-      "awarder": "Awarding Organization",
-      "summary": "Brief description of the award"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Certification Name",
-      "date": "2023-06-01",
-      "issuer": "Issuing Organization",
-      "url": "https://certification-url.com"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Publication Title",
-      "publisher": "Publisher Name",
-      "releaseDate": "2023-01-01",
-      "url": "https://publication-url.com",
-      "summary": "Brief description of the publication"
-    }
-  ],
-  "skills": [
-    {
-      "name": "Category (e.g., Programming Languages)",
-      "level": "Expert",
-      "keywords": [
-        "Skill 1",
-        "Skill 2",
-        "Skill 3"
-      ]
-    },
-    {
-      "name": "Category (e.g., Frameworks)",
-      "level": "Advanced",
-      "keywords": [
-        "Framework 1",
-        "Framework 2"
-      ]
-    },
-    {
-      "name": "Category (e.g., Tools)",
-      "level": "Intermediate",
-      "keywords": [
-        "Tool 1",
-        "Tool 2"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "Spanish",
-      "fluency": "Professional working proficiency"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Interest Category",
-      "keywords": [
-        "Hobby 1",
-        "Hobby 2"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Reference Name",
-      "reference": "Available upon request"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Project Name",
-      "description": "Brief description of the project",
-      "highlights": [
-        "Key feature or achievement #1",
-        "Key feature or achievement #2"
-      ],
-      "keywords": [
-        "Technology 1",
-        "Technology 2"
-      ],
-      "startDate": "2023-01-01",
-      "endDate": "2023-06-01",
-      "url": "https://project-url.com",
-      "roles": [
-        "Lead Developer",
-        "Designer"
-      ],
-      "entity": "Company or Organization",
-      "type": "application"
-    }
-  ],
-  "meta": {
-    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
-    "version": "v1.0.0",
-    "lastModified": "2024-12-29",
-    "theme": "elegant"
   }
-}
-

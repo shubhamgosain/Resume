@@ -1,0 +1,35 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "This project uses the [JSON Resume](https://jsonresume.org/) standard to create and maintain your resume in a structured, portable format.",
+  "main": "index.js",
+  "scripts": {
+    "build": "resumed render resume.json --theme jsonresume-theme-even -o resume.html",
+    "build:even": "resumed render resume.json --theme jsonresume-theme-even -o resume.html",
+    "build:straightforward": "resumed render resume.json --theme jsonresume-theme-straightforward -o resume.html",
+    "build:elegant": "resumed render resume.json --theme jsonresume-theme-elegant -o resume.html",
+    "build:stackoverflow": "resumed render resume.json --theme jsonresume-theme-stackoverflow -o resume.html",
+    "preview": "npm run build && open resume.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-personal:shubhamgosain/Resume.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "jsonresume-theme-actual": "^0.2.2",
+    "jsonresume-theme-class": "^0.1.2",
+    "jsonresume-theme-elegant": "^1.16.1",
+    "jsonresume-theme-even": "^0.26.1",
+    "jsonresume-theme-flat": "^0.3.7",
+    "jsonresume-theme-kendall": "^0.2.0",
+    "jsonresume-theme-onepage": "^0.0.3",
+    "jsonresume-theme-paper": "^0.5.0",
+    "jsonresume-theme-stackoverflow": "^2.1.0",
+    "jsonresume-theme-straightforward": "^0.2.0",
+    "resumed": "^6.1.0"
+  }
+}
